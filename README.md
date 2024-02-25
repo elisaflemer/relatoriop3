@@ -16,13 +16,13 @@ O MQTT opera em um modelo de publicação e assinatura, onde os dispositivos pod
 
 Em termos de segurança, o MQTT oferece diversos mecanismos padrão para proteger a integridade e a confidencialidade das comunicações entre os clientes e o broker MQTT:
 
-**1. Autenticação:** O MQTT suporta autenticação de clientes por meio de diversos mecanismos, incluindo nome de usuário e senha, certificados digitais e tokens de acesso. Esses mecanismos garantem que apenas clientes autorizados possam se conectar ao broker MQTT e participar da troca de mensagens.
+- **Autenticação:** O MQTT suporta autenticação de clientes por meio de diversos mecanismos, incluindo nome de usuário e senha, certificados digitais e tokens de acesso. Esses mecanismos garantem que apenas clientes autorizados possam se conectar ao broker MQTT e participar da troca de mensagens.
 
-**2. TLS/SSL (Transport Layer Security/Secure Sockets Layer):** O MQTT pode ser configurado para operar sobre uma conexão segura TLS/SSL, proporcionando criptografia de ponta a ponta entre os clientes e o broker MQTT. Isso protege contra ataques de interceptação de dados e garante a confidencialidade das informações transmitidas.
+- **TLS/SSL (Transport Layer Security/Secure Sockets Layer):** O MQTT pode ser configurado para operar sobre uma conexão segura TLS/SSL, proporcionando criptografia de ponta a ponta entre os clientes e o broker MQTT. Isso protege contra ataques de interceptação de dados e garante a confidencialidade das informações transmitidas.
 
-**3. Controle de Acesso:** O MQTT permite a definição de políticas de controle de acesso que regulam quais clientes têm permissão para publicar ou assinar determinados tópicos. Isso permite uma granularidade maior no gerenciamento de permissões e na proteção contra acessos não autorizados.
+- **Controle de Acesso:** O MQTT permite a definição de políticas de controle de acesso que regulam quais clientes têm permissão para publicar ou assinar determinados tópicos. Isso permite uma granularidade maior no gerenciamento de permissões e na proteção contra acessos não autorizados.
 
-**4. Mensagens Retidas e Limpeza de Sessão:** O MQTT oferece suporte a mensagens retidas, que são armazenadas no broker e entregues a novos clientes que se inscrevem em um tópico específico. Além disso, os clientes podem optar por limpar ou persistir sessões de cliente, controlando o comportamento do broker em relação à entrega de mensagens durante desconexões temporárias.
+- **Mensagens Retidas e Limpeza de Sessão:** O MQTT oferece suporte a mensagens retidas, que são armazenadas no broker e entregues a novos clientes que se inscrevem em um tópico específico. Além disso, os clientes podem optar por limpar ou persistir sessões de cliente, controlando o comportamento do broker em relação à entrega de mensagens durante desconexões temporárias.
 
 Esses mecanismos de segurança fornecidos pelo MQTT ajudam a mitigar diversos tipos de ameaças, incluindo ataques de autenticação, interceptação de dados e acesso não autorizado. No entanto, é importante ressaltar que a implementação correta e a configuração adequada desses mecanismos são fundamentais para garantir a robustez da segurança em um ambiente MQTT.
 
