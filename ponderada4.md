@@ -24,7 +24,6 @@ Em um ataque de força bruta às credenciais locais ou do HiveMQ, um invasor ten
 **4. Iteração e Persistência:** O invasor continua iterando sobre as combinações de credenciais até que encontre um conjunto válido. Em alguns casos, pode até mesmo tentar técnicas de persistência, como tentativas repetidas ao longo do tempo, para evitar bloqueios de segurança temporários.
 
 ### Mitigação do ataque
-Para mitigar um ataque de força bruta às credenciais locais ou do HiveMQ, são necessárias várias medidas de segurança:
 
 - **Políticas de Senha Fortes:** Implementar políticas de senha fortes que exijam combinações de caracteres complexas, como letras maiúsculas e minúsculas, números e caracteres especiais.
   
