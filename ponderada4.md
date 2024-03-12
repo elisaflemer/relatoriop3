@@ -1,10 +1,14 @@
-# Ponderada 4
+# Avaliação de Segurança do Projeto
 
 A segurança da informação é um aspecto fundamental em qualquer projeto tecnológico, especialmente em iniciativas que lidam com a coleta, processamento e compartilhamento de dados sensíveis. Continuando nossa jornada na disciplina de Segurança da Informação, esta segunda atividade ponderada expande nosso escopo para identificar e classificar vulnerabilidades em um contexto específico: nosso projeto de ecovigilância com sensores de poluição, ruído e radiação solar.↳
 
 Nosso projeto, um metaprojeto de ecovigilância, visa monitorar e analisar os níveis de poluição ambiental, ruído e radiação solar. Para isso, utilizamos sensores conectados que coletam dados em tempo real, os quais são publicados em um broker MQTT local ou clusterizado do HiveMQ. Essa arquitetura não apenas permite a coleta eficiente de informações ambientais, mas também estabelece uma base para análises e tomadas de decisão informadas.
+
 Entretanto, nosso projeto não está imune a vulnerabilidades. Nesta atividade, nosso foco está na identificação e classificação dessas vulnerabilidades inerentes aos ambientes de ecovigilância. A análise de riscos será realizada através de uma matriz que considera a probabilidade e o impacto de cada vulnerabilidade, permitindo-nos entender melhor as potenciais ameaças e priorizar ações para mitigá-las.
+
 Dessa forma, esta atividade não apenas aprofunda nosso entendimento sobre segurança da informação, mas também destaca a importância de considerar a proteção de dados em todas as fases de um projeto, desde a concepção até a implementação e operação. Vamos agora explorar as vulnerabilidades em nosso ambiente de ecovigilância e desenvolver estratégias para garantir a integridade, confidencialidade e disponibilidade dos dados coletados.
+
+<img width="3683" alt="Risk Matrix Template (Copy)" src="https://github.com/elisaflemer/relatoriop3/assets/99259251/1d54a49f-396f-41b6-8424-7cfc9e4d16f3">
 
 ## Ataque de força bruta
 
