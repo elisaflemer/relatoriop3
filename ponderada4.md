@@ -12,9 +12,6 @@ Dessa forma, esta atividade não apenas aprofunda nosso entendimento sobre segur
 
 ## Ataque de força bruta
 
-Um ataque de força bruta é uma técnica utilizada por invasores para tentar obter acesso não autorizado a sistemas ou contas através da tentativa repetida de combinações de credenciais, como nomes de usuário e senhas. Essa abordagem, embora simples, pode ser extremamente eficaz quando não são implementadas medidas de segurança adequadas.
-
-### O que é?
 Em um ataque de força bruta às credenciais locais ou do HiveMQ, um invasor tenta acessar um sistema ou broker MQTT como o HiveMQ através de uma abordagem de tentativa e erro, testando diversas combinações de nomes de usuário e senhas. O objetivo é encontrar as credenciais corretas que concedam acesso não autorizado ao sistema alvo.
 
 ### Passo a passo do ataque
